@@ -1,12 +1,7 @@
-<!doctype html>
-<html lang="en">
-<head>
-<body>
-
-adsad
-
-Второе изменение
-Lorem ipsum dolor sit amet, consectetur adipisicing elit. Aspernatur dignissimos dolores earum iusto rem. Assumenda consequuntur ipsa maxime nemo provident rerum vero voluptatem! Eum ipsum iste odio placeat, ratione totam!
-
-</body>
-</html>
+<?php
+/**
+ * Created by PhpStorm.
+ * User: Geg
+ * Date: 02.05.2019
+ * Time: 12:03
+ */
