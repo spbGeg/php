@@ -1,0 +1,148 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta http-equiv="Content-Type" content="text/html" charset="utf-8"/>
+    <meta name="description" content="Зто главная страница нашего сайта"/>
+
+<link   href="css/bootstrap.css" type="text/css" rel="stylesheet"/>
+    <link type="text/css" rel="stylesheet" href="css/main.css"/>
+    <script src="js/bootstrap.js"></script>
+    <script src="js/bootstrap.js"></script>
+    <title>Главная страница</title>
+</head>
+
+<body>
+<div id="content">
+    <header class="container-fluid">
+        <div class="row">
+            <div class="container">
+                <div class="row">
+                    <div class="col-lg-3"><img src="images/bmw.png" alt=""></div>
+                    <div class="col-lg-9"></div>
+                </div>
+            </div>
+
+        </div>
+    </header>
+    <hr/>
+    <div id="main" class="container">
+        <div class="row">
+        <div id="left" class="col-lg-3">
+            <img src="images/123.png" alt=""> <h3>Меню</h3>
+            <ul>
+                <li><a href="#">Главная</a></li>
+                <li><a href="#">Строковые функции</a></li>
+                 <li><a href="#">Математические функции</a></li>
+                <li><a href="#">Функции даты и времени</a></li>
+            </ul>
+            <h3>Авторизация</h3>
+            <p class="access-banned">Неверные имя пользователя или пароль</p>
+            <form action="#" name="auth" method="post">
+                <table>
+                    <tr>
+                        <td>Логин</td>
+                        <td><input type="text" name="login"></td>
+                    </tr>
+                    <tr>
+                        <td>Пароль</td>
+                        <td><input type="password" name="password"/></td>
+                    </tr>
+                    <tr class="right">
+                        <td colspan="2"><input type="submit" name="enter" value="Войти"/></td>
+                    </tr>
+                    <tr class="right"><td colspan="2"><a href="#"> Зарегистрироваться</a></td></tr>
+
+                </table>
+            </form>
+        </div>
+        <div id="central" class="col-lg-6">
+            <h1>Заголовок на главной странице</h1>
+            <img src="images/1.jpg" alt=""><p>Текст на главной странице</p>
+            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. A ab consequatur dolorem dolorum esse
+                est et facere facilis fugiat, hic impedit nam nemo odio quod reiciendis reprehenderit voluptas. Cum, voluptate?</p>
+            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Aliquid at cum dolorem esse eum
+                illo ipsa minima molestiae, natus non odio officia officiis porro quos ratione soluta sunt veritatis voluptatum?</p>
+
+            <hr/>
+            <article>
+                <h2>Заголовок статьи</h2>
+                <img src="images/2.jpg" alt=""><p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. A ab consequatur dolorem dolorum esse
+                est et facere facilis fugiat, hic impedit nam nemo odio quod reiciendis reprehenderit voluptas. Cum, voluptate?</p>
+                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Aliquid at cum dolorem esse eum
+                    illo ipsa minima molestiae, natus non odio officia officiis porro quos ratione soluta sunt veritatis voluptatum?</p>
+                <div class="detailed">
+                    <span> 09.05.2019</span>
+                    <a href="#">Подробнее</a>
+                </div>
+            </article>
+            <hr/>
+            <article>
+                <h2>Заголовок статьи</h2>
+                <img src="images/3.png" alt=""><p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. A ab consequatur dolorem dolorum esse
+                est et facere facilis fugiat, hic impedit nam nemo odio quod reiciendis reprehenderit voluptas. Cum, voluptate?</p>
+                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Aliquid at cum dolorem esse eum
+                    illo ipsa minima molestiae, natus non odio officia officiis porro quos ratione soluta sunt veritatis voluptatum?</p>
+                <div class="detailed">
+                    <span> 09.05.2019</span>
+                    <a href="#">Подробнее</a>
+                </div>
+            </article>
+            <hr/>
+            <article>
+                <h2>Заголовок статьи</h2>
+                <img src="images/4.png" alt=""><p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. A ab consequatur dolorem dolorum esse
+                est et facere facilis fugiat, hic impedit nam nemo odio quod reiciendis reprehenderit voluptas. Cum, voluptate?</p>
+                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Aliquid at cum dolorem esse eum
+                    illo ipsa minima molestiae, natus non odio officia officiis porro quos ratione soluta sunt veritatis voluptatum?</p>
+                <div class="detailed">
+                    <span> 09.05.2019</span>
+                    <a href="#">Подробнее</a>
+                </div>
+            </article>
+            <hr/>
+
+
+            <div id="pagination">
+                <p><a href="#">1</a><a href="#">2</a><a href="#">3</a></p>
+            </div>
+        </div>
+
+        <div id="right" class="col-lg-3">
+            <form action="#" method="post" name="search">
+                <p>Поиск <input type="text" name="search"/></p>
+                <p><input type="submit" name="start_search" value="Поиск"></p>
+
+            </form>
+
+            <h2>Реклама</h2>
+            <div class="banner">Тут код баннера</div>
+            <div class="banner">Тут код баннера</div>
+
+        </div>
+
+
+        </div>
+    </div>
+
+    <div class="clear"></div>
+    <hr/>
+    <footer class="container-fluid">
+
+        <div class="row">
+            <div class="container">
+                <div class="row">
+                    <div class="col-lg-3"><img src="images/bmw.png" alt=""></div>
+                    <div class="col-lg-9 menu"> Все прова защищены &copy 2019</div>
+                </div>
+            </div>
+
+        </div>
+
+
+
+    </footer>
+
+
+</div>
+</body>
+</html>

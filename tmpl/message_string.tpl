@@ -1,0 +1,1 @@
+<p class="access-banned">%message%</p>

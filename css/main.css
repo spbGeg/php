@@ -1,0 +1,120 @@
+body {
+    margin: 0;
+    padding: 0;
+}
+.clear{
+    clear:both;
+}
+
+.details{
+    text-align: right;
+}
+.right{
+    text-align:right;
+}
+header {
+    text-align: center;
+}
+
+#left, #right {
+
+}
+/*------Left column ---------*/
+#left{
+  padding: 0;
+  padding-top: 50px;
+}
+
+#left img {
+    width: 50px;
+    height: auto;
+    float: left;
+    padding-right: 10px;
+}
+.access-banned{
+    color: red;
+    text-align:center;
+}
+
+/*------Right column ----------*/
+#right{
+padding: 50px 20px;
+}
+.banner{
+    border: 1px solid black;
+    margin: 10px 0;
+    width: 200px;
+    height: 400px;
+}
+
+/*------Central column ----------*/
+.detailed{
+    text-align: right;
+}
+#central{
+
+    border-left: 1px solid grey;
+    border-right: 1px solid grey;
+    padding-left: 20px;
+    padding-right: 20px;
+
+}
+#central h1{
+    margin: 0;
+    text-align: center;
+    padding-bottom: 20px;
+}
+#central h2{
+    text-align: center;
+}
+#central table{
+    margin: 0 auto;
+}
+#central img {
+    float:left;
+    width: 250px;
+    padding-right: 20px;
+    padding-bottom: 20px;
+
+}
+#pagination a{
+    padding-left: 10px;
+
+}
+#pagination p {
+    font-size: 110%;
+    text-align:center;
+}
+
+
+hr{
+    margin: 0;
+}
+
+
+/* ----------Header --------*/
+header{
+    background-color: #005cbf;
+    padding: 10px 10px;
+}
+header img{
+
+    width: 72px;
+    height: auto;
+
+}
+/* --------Footer --------*/
+
+footer{
+    background-color: #005cbf;
+    text-align:center;
+}
+
+footer img{
+    width: 50px;
+    height: auto;
+    padding: 10px 10px;
+}
+footer .menu{
+    padding: 10px 10px;
+}
